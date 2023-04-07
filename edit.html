@@ -284,7 +284,7 @@
 								name="new_dm_tag"
 								id="new_dm_tag"
 								aria-describedby="new_dm_tagHelp"
-								pattern="[a-zA-Z]+#\d\d\d\d"
+								pattern="^((?!.discord\b)(?!.\bhere\b)(?!.*\beveryone\b)[^@:'´`#]){2,32}#[0-9]{4}$"
 								maxlength="200"
 							/>
 							<div id="new_dm_tagHelp" class="form-text">
