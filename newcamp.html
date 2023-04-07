@@ -327,7 +327,7 @@
 								name="dm_tag"
 								id="dm_tag"
 								aria-describedby="dm_tagHelp"
-								pattern="[\w]*#[0-9]{4}"
+								pattern="^((?!.discord\b)(?!.\bhere\b)(?!.*\beveryone\b)[^@:'´`#]){2,32}#[0-9]{4}$"
 								maxlength="200"
 								required
 							/>
