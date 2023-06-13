@@ -284,15 +284,15 @@
 								name="new_dm_tag"
 								id="new_dm_tag"
 								aria-describedby="new_dm_tagHelp"
-								pattern="^((?!.discord\b)(?!.\bhere\b)(?!.*\beveryone\b)[^@:'´`#]){2,32}#[0-9]{4}$"
-								maxlength="200"
+								pattern="[a-z0-9A-Z#._]+"
+								maxlength="32"
 							/>
 							<div id="new_dm_tagHelp" class="form-text">
 								Enter here the users Discord tag you want to tranfer the DM status to. Leave this empty
 								otherwise.
 							</div>
 							<div class="invalid-feedback">
-								The Discord Tag has to follow the pattern Username#XXXX e.g. Wumpus#1234
+								The Discord Tag can only contain lowercase letters, numbers, underscores and dots.
 							</div>
 						</div>
 					</div>

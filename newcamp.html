@@ -327,13 +327,13 @@
 								name="dm_tag"
 								id="dm_tag"
 								aria-describedby="dm_tagHelp"
-								pattern="^((?!.discord\b)(?!.\bhere\b)(?!.*\beveryone\b)[^@:'´`#]){2,32}#[0-9]{4}$"
-								maxlength="200"
+								pattern="[a-z0-9A-Z#._]+"
+								maxlength="32"
 								required
 							/>
 							<div id="dm_tagHelp" class="form-text">Enter here your own Discord Tag.</div>
 							<div class="invalid-feedback">
-								Your Discord Tag has to follow the pattern Username#XXXX e.g. Wumpus#1234
+								Your Discord Tag can only contain lowercase letters, numbers, underscores and dots.
 							</div>
 						</div>
 					</div>
